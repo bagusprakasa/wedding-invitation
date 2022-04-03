@@ -5,7 +5,7 @@ if (u==null || u=="") {
 } else {
     document.getElementById('guest').innerHTML = u;
 }
-
+console.log(new Date(2022, 4, 22, 11, 00));
 document.addEventListener('DOMContentLoaded', function() {
     /* 
     |======================================
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     // timezz : countdown
     timezz('#countdown-row', {
-        date: new Date(2022, 4, 29, 14, 52),
+        date: new Date(2022, 4, 22, 11, 00),
         stop: false,
         canContinue: false,
         withYears: false,
